@@ -23,7 +23,7 @@ const Index = () => {
         gettingData()
         gettingDataChild()
     },[search])
-
+    console.log(dataChild)
     return(
 
         <>
@@ -41,7 +41,7 @@ const Index = () => {
                         </div>
                     </>
                 ))}
-                    <DrawSearch dataChild={dataChild}/>
+
                 </>
         </>
     )
